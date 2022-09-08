@@ -1,0 +1,17 @@
+  /* INDEX */
+  .marcas-index {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin: 5px;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.13);
+  }
+  
+  /* MAPA INDEX */
+  .map {
+    height: 100vh;
+  }

@@ -1,0 +1,25 @@
+ /* CONTACTO */
+  
+ .Main-Contacto {
+    background-image: url(https://res.cloudinary.com/dffbc7kyd/image/upload/v1661910534/Proyecto%20final%20Coder/giant_mtb_banner_navi21_muovgd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: auto;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    object-fit: cover;
+  }
+  input {
+    margin: 10px;
+  }
+  input:focus {
+    transform: scale(1.1);
+  }
+  
+  label{
+    color: white;
+  }
+  

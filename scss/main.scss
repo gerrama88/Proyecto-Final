@@ -1,0 +1,38 @@
+@import './sections/botones';
+@import './sections/galeria';
+@import './sections/query';
+@import './sections/footer';
+@import './sections/index';
+@import './sections/form';
+
+
+/* RESETEO Y ESTILOS GLOBALES */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* APLICADO A VARIOS CONTENEDORES/ SOLUCIONA SCROLL PARA RESPOSIVE */
+  .row {
+    justify-content:center;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+   /* FORMATO H1 PARA TODOS LOS HTML */
+  
+   h1{
+    font-weight: 400;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.993);
+    font-weight: bold;
+  }
+
+  /* NAV */
+  .container-fluid img {
+    width: 100px;
+  }
