@@ -1,7 +1,7 @@
 /* GALERIA BICILETAS/ACCESORIOS */
   
 .main-galeria{
-    background-image: linear-gradient(rgb(44, 43, 43), rgb(192, 190, 190));
+    background-image: $bg-main;
     padding-bottom: 20px;
     
     }
@@ -9,7 +9,7 @@
     .galeria{
       height: 100%;
       width: 100vW;
-      background-image: linear-gradient(#4A148C, #E53935);
+      background-image: $bg-galeria;
       background-repeat: no-repeat;
       color: #000;
       overflow-x: hidden;
