@@ -1,0 +1,23 @@
+Keywords:
+- Index: Farol Bike, Bicicletas, Bici, Bike, Mountain Bike.
+-Seguros: Farol Bike, Bicicletas, Bici, Seguro, Protección.
+-Contacto: Farol Bike, Bicicletas, Bici, Contacto, Consulta, Correo.
+-Bicicletas: Farol Bike, Bicicletas, Bici, Topmega, Venzo, Slp, Sars.
+-Accesorios: Farol Bike, Bicicletas, Bici, Casco, Silla, Asiento, Luz, Accesorios.
+
+Descriptions:
+- Index: Farol Bike es la tienda multimarcas de bicicletas que estás buscando.
+-Seguros: Asegurá tu bici con el plan que mejor se adapte a tu bolsillo.
+-Contacto: Completá tus datos y dejá tu consulta, nos comunicaremos a la brevedad.
+-Bicicletas: Tenemos mucha variedad de marcas, nos adaptamos a tu presupuesto y exigencias.
+-Accesorios: Encontrá acá todos los accesorios que buscas para tu seguridad y comodidad.
+
+Títulos:
+Farol Bike|Inicio
+Farol Bike|Seguros
+Farol Bike|Contacto
+Farol Bike|Bicicletas
+Farol Bike|Accesorios
+
+Imágenes:
+-Para las imágenes usé los links creados en la nube de la página Cloudinary.
