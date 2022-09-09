@@ -1,4 +1,14 @@
 @charset "UTF-8";
+/* EXTEND */
+h1 {
+  font-weight: 400;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 40px;
+  color: rgba(255, 255, 255, 0.993);
+  font-weight: bold; }
+
+/* MIXIN */
 /* BOTÓN (X) */
 .close {
   display: block;
@@ -173,14 +183,19 @@ label {
   margin-left: 0; }
 
 /* FORMATO H1 PARA TODOS LOS HTML */
-h1 {
-  font-weight: 400;
-  text-align: center;
-  padding: 10px 0;
-  font-size: 40px;
-  color: rgba(255, 255, 255, 0.993);
-  font-weight: bold; }
-
 /* NAV */
 .container-fluid img {
   width: 100px; }
+
+/* PÁRRAFOS HTML SEGUROS */
+.animate__animated p {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  font-weight: lighter; }
+
+.animate__animated li {
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  font-weight: lighter; }
