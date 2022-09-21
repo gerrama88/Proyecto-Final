@@ -30,19 +30,19 @@
   }
   
  /* BOTÓN FIXED DE WP */
-//  .Wap {
-//     background-color: green;
-//     color: white;
-//     display: inline-block;
-//     height: 50px;
-//     width: 50px;
-//     border-radius: 50%;
-//     text-align: center;
-//     position: fixed;
-//     bottom: 50px;
-//     right: 50px;
-//     z-index: 9999999;
-//   }  
+ .Wap {
+   background-color: green;
+   color: white;
+   display: inline-block;
+   height: 25px;
+   width: 25px;
+   border-radius: 50%;
+   text-align: center;
+   position: fixed;
+   bottom: 150px;
+   right: 50px;
+   z-index: 9999999;
+ }
 
   .Face {
     background-color: rgb(43, 9, 236);
@@ -53,7 +53,7 @@
     border-radius: 50%;
     text-align: center;
     position: fixed;
-    bottom: 45px;
+    bottom: 100px;
     right: 50px;
     z-index: 9999999;
   }  
@@ -67,7 +67,7 @@
     border-radius: 50%;
     text-align: center;
     position: fixed;
-    bottom: 40px;
+    bottom: 50px;
     right: 50px;
     z-index: 9999999;
   }  
