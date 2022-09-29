@@ -1,7 +1,7 @@
  /* CONTACTO */
   
  .Main-Contacto {
-    background-image: url(https://res.cloudinary.com/dffbc7kyd/image/upload/v1661910534/Proyecto%20final%20Coder/giant_mtb_banner_navi21_muovgd.jpg);
+    background-image: url(https://res.cloudinary.com/dffbc7kyd/image/upload/v1660512808/Proyecto%20final%20Coder/didier-weemaels-4yfdgmbgBWU-unsplash_xtjbl4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -12,9 +12,33 @@
     padding-bottom: 10vh;
     object-fit: cover;
   }
-  input {
+
+  
+  
+  input, textarea {
     margin: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    // font-family: 'Poppins', sans-serif;
+    // font-size:1.2em;
+    color: #000000 !important;
+    margin-bottom: 3vh;
+    background:
+    linear-gradient(#fff 0 0) padding-box,  
+    linear-gradient(266.12deg, #01BDF2 1.91%, #7368F7 25.04%, #E512FD 46.73%, #FF3EA8 67.98%, #FFB802 92.3%) border-box; 
+    border-top: 4px solid transparent;
+    box-shadow:5px 5px 5px #ced4da;
   }
+
+  form{
+    margin: auto;
+    width: 450px;
+    background: rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius:7px;
+  }
+
   input:focus {
     transform: scale(1.1);
   }

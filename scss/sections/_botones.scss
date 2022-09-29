@@ -29,45 +29,65 @@
     text-align: center;
   }
   
- /* BOTÓN FIXED DE WP */
- .Wap {
-   background-color: green;
-   color: white;
-   display: inline-block;
-   height: 25px;
-   width: 25px;
-   border-radius: 50%;
-   text-align: center;
-   position: fixed;
-   bottom: 150px;
-   right: 50px;
-   z-index: 9999999;
- }
-
-  .Face {
-    background-color: rgb(43, 9, 236);
-    color: white;
-    display: inline-block;
-    height: 25px;
-    width: 25px;
-    border-radius: 50%;
-    text-align: center;
+  // Social bar//
+  .social{
     position: fixed;
-    bottom: 100px;
-    right: 50px;
-    z-index: 9999999;
-  }  
+    left: 0;
+    top: 250px;
+    z-index: 2000;
+}
 
-  .Insta {
-    background-color: rgb(245, 9, 146);
-    color: white;
-    display: inline-block;
-    height: 25px;
-    width: 25px;
-    border-radius: 50%;
-    text-align: center;
-    position: fixed;
-    bottom: 50px;
-    right: 50px;
-    z-index: 9999999;
-  }  
+.social ul {
+    list-style: none;
+}
+
+.social ul li a {
+  display:inline-block;
+  color: white;
+  background-color: darkgray;
+  padding:10px 10px;
+  text-decoration: none;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+ 
+}
+.social ul li .fa-facebook-f {
+    background: #0408f0;    
+    border-radius: 5px;
+}
+.social ul li .fa-instagram {
+    background: #d214b9f0;
+    border-radius: 5px;
+
+}
+.social ul li .fa-whatsapp {
+    background: #40f060;
+    border-radius: 5px;
+
+}
+.social ul li .icon-rss2 {
+     background: #d214b9;  
+}
+
+.social ul li a:hover {
+    padding: 10px  15px;
+    background: #000;
+}
+
+// Scroll Bar//
+
+::-webkit-scrollbar{
+  width: 1rem;
+}
+
+::-webkit-scrollbar-track{
+  background: gainsboro;
+  border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(266.12deg, #01BDF2 1.91%, #7368F7 25.04%, #E512FD 46.73%, #FF3EA8 67.98%, #FFB802 92.3%);
+  border-radius: 100px;
+  border: 3px solid gainsboro;
+}
