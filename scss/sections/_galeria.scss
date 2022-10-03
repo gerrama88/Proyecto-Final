@@ -3,7 +3,7 @@
 .main-galeria{
     background-image: $bg-main;
     padding-bottom: 20px;
-    
+    min-height: 80vh;
     }
     
     .galeria{
@@ -47,6 +47,8 @@
       font-size: 1.5em;
       font-style: italic;
       font-weight: bold;
+      height: 50px;
+      width: 180px;
     }
 
     .container a:hover img{

@@ -89,7 +89,8 @@ h1 {
 /* GALERIA BICILETAS/ACCESORIOS */
 .main-galeria {
   background-image: linear-gradient(#2c2b2b, #c0bebe);
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  min-height: 80vh; }
 
 .galeria {
   height: 100%;
@@ -126,7 +127,9 @@ article p {
   -webkit-text-stroke: 1px #0c0c0c;
   font-size: 1.5em;
   font-style: italic;
-  font-weight: bold; }
+  font-weight: bold;
+  height: 50px;
+  width: 180px; }
 
 /* LIGHT-BOX BICICLETAS/ ACCESORIOS */
 .light-box-bici, .light-box-accesorios {
@@ -158,20 +161,6 @@ article p {
 
 .text-center {
   color: white; }
-
-/* MEDIA QUERY */
-@media (max-width: 700px) {
-  .marcas-index img {
-    height: 150px;
-    width: 150px; } }
-
-@media (max-width: 450px) {
-  .pagos img {
-    width: 250px; } }
-
-@media (max-width: 450px) {
-  form {
-    width: 350px; } }
 
 /* FOOTER */
 .fa-instagram:hover {
@@ -239,6 +228,24 @@ input:focus, textarea:focus {
 
 label {
   color: white; }
+
+/* MEDIA QUERY */
+@media (max-width: 700px) {
+  .marcas-index img {
+    height: 150px;
+    width: 150px; } }
+
+@media (max-width: 450px) {
+  .pagos img {
+    width: 250px; } }
+
+@media (max-width: 450px) {
+  form {
+    width: 250px; } }
+
+@media (max-width: 650px) {
+  article p {
+    font-size: 1em; } }
 
 /* RESETEO Y ESTILOS GLOBALES */
 * {
