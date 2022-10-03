@@ -37,12 +37,13 @@
     padding: 10px 20px;
     margin-top: 20px;
     border-radius:7px;
+    align-items: center;
   }
 
-  input:focus {
+  input:focus, textarea:focus {
     transform: scale(1.1);
   }
-  
+    
   label{
     color: white;
   }

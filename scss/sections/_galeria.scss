@@ -28,7 +28,27 @@
       overflow: hidden;
       box-shadow: 0 0 6px rgba(0, 0, 0, .5);
     }
+
+    .container p{
+      display: none
+    }
     
+    article{
+      position: relative;
+      display: inline-block;
+      text-align: center;
+    }
+
+    article p{
+      position: absolute;
+      text-align: justify;
+      color: aliceblue;
+      -webkit-text-stroke: 1px rgb(12, 12, 12);
+      font-size: 1.5em;
+      font-style: italic;
+      font-weight: bold;
+    }
+
     .container a:hover img{
       @extend %efectoImg;
     }
